@@ -1,14 +1,19 @@
 Telco Customer Churn Visualization
+
 Description
+
 This project provides an in-depth analysis and visualization of the Telco Customer Churn dataset. The dataset includes customer information such as demographics, services, and account details, aimed at understanding customer churn patterns and predicting factors influencing customer attrition.
 
 Dataset
+
 The dataset used in this project is available here:- https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 Project Overview
+
 The project involves various steps to explore, analyze, and visualize the dataset to gain insights into customer churn. Below is a summary of the steps performed:
 
 1. Data Exploration
+
 Histograms and Box Plots: Visualized the distribution of numerical features such as age, tenure, and monthly charges using matplotlib and seaborn.
 
 Correlation Heatmap: Created a heatmap to show correlations between numerical features like tenure and monthly charges.
