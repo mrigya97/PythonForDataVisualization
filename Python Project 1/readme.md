@@ -12,6 +12,7 @@ The project involves various steps to explore, analyze, and visualize the datase
 Histograms and Box Plots: Visualized the distribution of numerical features such as age, tenure, and monthly charges using matplotlib and seaborn.
 
 Correlation Heatmap: Created a heatmap to show correlations between numerical features like tenure and monthly charges.
+
 2. Churn Analysis
 
 Churn Rate Overview: Visualized the proportion of churned vs. retained customers using pie charts and bar graphs.
