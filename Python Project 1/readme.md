@@ -31,7 +31,7 @@ Heatmap of Service Combinations: Visualized patterns in service usage (e.g., pho
 
 Segment Analysis: Applied clustering techniques (e.g., K-means) to segment customers and visualize churn tendencies.
 
-6. Predictive Insights
+5. Predictive Insights
 
 Decision Tree Visualization: Used a decision tree to show rules predicting customer churn.
 
