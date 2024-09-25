@@ -39,8 +39,10 @@ Fraud Detection: Merged fraudsters.csv with user and transaction data to analyze
 Simulation of Fraudster Activity: Generated randomized trends over time to simulate fraudster activity.
 
 Conclusion
+
 This project successfully utilized a variety of data manipulation and visualization techniques to analyze KYC processes and transaction behaviors, leading to valuable insights regarding user verification and transaction trends. The interactive visualizations created through plotly enhance the understanding of the dataset, providing stakeholders with crucial information for decision-making.
 
 Dataset Link
+
 Access the N26 KYC Challenge dataset on Kaggle: https://www.kaggle.com/datasets/zywald/n26-kyc-challenge
 
