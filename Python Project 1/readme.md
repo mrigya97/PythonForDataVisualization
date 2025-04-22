@@ -1,67 +1,71 @@
-Telco Customer Churn Visualization
+# Telco Customer Churn Visualization
 
-Description
+## Description
 
 This project provides an in-depth analysis and visualization of the Telco Customer Churn dataset. The dataset includes customer information such as demographics, services, and account details, aimed at understanding customer churn patterns and predicting factors influencing customer attrition.
 
-Dataset
+## Dataset
 
-The dataset used in this project is available here:- https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+The dataset used in this project is available here: [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-Project Overview
+## Project Overview
 
 The project involves various steps to explore, analyze, and visualize the dataset to gain insights into customer churn. Below is a summary of the steps performed:
 
-1. Data Exploration
+### 1. Data Exploration
+- **Histograms and Box Plots**: 
+  - Visualized the distribution of numerical features such as age, tenure, and monthly charges using **matplotlib** and **seaborn**.
+  
+- **Correlation Heatmap**: 
+  - Created a heatmap to show correlations between numerical features like tenure and monthly charges.
 
-Histograms and Box Plots: Visualized the distribution of numerical features such as age, tenure, and monthly charges using matplotlib and seaborn.
+### 2. Churn Analysis
+- **Churn Rate Overview**: 
+  - Visualized the proportion of churned vs. retained customers using **pie charts** and **bar graphs**.
 
-Correlation Heatmap: Created a heatmap to show correlations between numerical features like tenure and monthly charges.
+- **Service Usage Patterns**: 
+  - Compared service usage between churned and retained customers using **bar charts**.
 
-2. Churn Analysis
+### 3. Feature Importance
+- **Feature Impact**: 
+  - Analyzed the importance of features such as contract type, payment method, and tenure on churn using **bar plots** and models like **Random Forest** or **Logistic Regression**.
 
-Churn Rate Overview: Visualized the proportion of churned vs. retained customers using pie charts and bar graphs.
+- **Tenure vs. Monthly Charges Analysis**: 
+  - Illustrated how average monthly charges vary with customer tenure using **line charts**.
 
-Service Usage Patterns: Compared service usage between churned and retained customers using bar charts.
+### 4. Behavioural Patterns
+- **Heatmap of Service Combinations**: 
+  - Visualized patterns in service usage (e.g., phone, internet, and streaming services) between churned and non-churned customers.
 
-3. Feature Importance
+- **Segment Analysis**: 
+  - Applied **clustering techniques** (e.g., **K-means**) to segment customers and visualize churn tendencies.
 
-Feature Impact: Analyzed the importance of features such as contract type, payment method, and tenure on churn using bar plots and models like Random Forest or Logistic Regression.
+### 5. Predictive Insights
+- **Decision Tree Visualization**: 
+  - Used a **decision tree** to show rules predicting customer churn.
 
-Tenure vs. Monthly Charges Analysis: Illustrated how average monthly charges vary with customer tenure using line charts.
+- **Partial Dependency Plots**: 
+  - Illustrated the effect of specific features on churn likelihood.
 
-4. Behavioural Patterns
-   
-Heatmap of Service Combinations: Visualized patterns in service usage (e.g., phone, internet, and streaming services) between churned and non-churned customers.
+## Steps Used to Create Tenure and Service Usage Categories
 
-Segment Analysis: Applied clustering techniques (e.g., K-means) to segment customers and visualize churn tendencies.
+### 1. Tenure Groups
 
-5. Predictive Insights
+#### Define Tenure Categories:
+- **New Customer**: 0–12 months
+- **Mid-term Customer**: 13–36 months
+- **Loyal Customer**: 37+ months
 
-Decision Tree Visualization: Used a decision tree to show rules predicting customer churn.
+### 2. Service Usage Categories
 
-Partial Dependency Plots: Illustrated the effect of specific features on churn likelihood.
+#### Identify Relevant Features:
+- Features like **InternetService**, **OnlineSecurity**, **TechSupport**, **OnlineBackup**, and **DeviceProtection**.
 
-Steps used Create Tenure and Service Usage Categories
+#### Define Categories:
+- **Basic Service**: No internet service or limited additional services.
+- **Standard Service**: Internet service with limited add-ons.
+- **Premium Service**: Comprehensive services including multiple add-ons.
 
-Tenure Groups
+---
 
-Define Tenure Categories:
-
-New Customer: 0–12 months
-Mid-term Customer: 13–36 months
-Loyal Customer: 37+ months
-
-Service Usage Categories
-
-Identify Relevant Features:
-
-Features like InternetService, OnlineSecurity, TechSupport, OnlineBackup, and DeviceProtection.
-
-Define Categories:
-
-Basic Service: No internet service or limited additional services.
-
-Standard Service: Internet service with limited add-ons.
-
-Premium Service: Comprehensive services including multiple add-ons.
+This markdown format will help present the analysis and insights from the Telco Customer Churn project. Let me know if you need further modifications or additions!
