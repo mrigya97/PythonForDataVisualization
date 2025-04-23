@@ -68,4 +68,3 @@ The project involves various steps to explore, analyze, and visualize the datase
 
 ---
 
-This markdown format will help present the analysis and insights from the Telco Customer Churn project. Let me know if you need further modifications or additions!
